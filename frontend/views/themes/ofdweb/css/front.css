@@ -1,0 +1,700 @@
+.schemes .tab-pane img {
+	max-width:100%;
+	width:100%;
+}
+
+.container h2 {
+	text-align:center;
+	font-size:48px;
+}
+.container h3 {
+	font-size:30px;
+}
+.container h4 {
+	font-size:24px;
+}
+
+.slogan {
+	margin-bottom:50px;
+}
+.slogan, .slogan-row1 {
+	font-size:48px;
+	color:#010101;
+	text-transform:uppercase;
+}
+.slogan-row2 {
+	font-size:62px;
+	font-weight:bold;
+}
+.slogan-row3 {
+	font-size:57px;
+	color:#878787;
+	text-transform:none;
+}
+
+.request-call {
+	background-color:rgb(248,248,248);
+}
+.screen-item1 .container > .row > div {
+	padding-top:75px;
+	padding-bottom:75px;
+}
+
+.request-call {
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.screen-item1 .container {
+	background-image:url('../img/screen1-bg.png');
+	background-position:100% 0%;
+	background-repeat:no-repeat;
+}
+.screen-item1 .container .img {
+	max-width:100%;
+}
+.screen-item1 .row .row > div {
+	font-size:24px;
+	padding-left:85px;
+	margin-bottom:30px;
+}
+.cards-bg {
+	background-image:url('../img/cards-symbol.png');
+}
+.send-bg {
+	background-image:url('../img/send-symbol.png');
+}
+.cash-box-bg {
+	background-image:url('../img/cash-box-symbol.png');
+}
+.screen-item1 .row .row > div {
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+.schemes .schemes-tabs ul li a {
+	font-size:24px;
+	color:#878787;
+	border:none !important;
+	overflow:hidden;
+	position:relative;
+}
+.schemes .schemes-tabs ul li.active a {
+	color:#000;
+
+}
+.schemes .schemes-tabs ul li {
+	padding-left:20px;
+	padding-right:20px;
+	position: relative;
+  top: -5px;
+}
+.schemes .schemes-tabs ul li a span {
+	font-size:inherit;
+	color:inherit;
+}
+.schemes .schemes-tabs ul li div {
+	display:none;
+}
+.schemes .schemes-tabs ul li.active div {
+	position: absolute;
+    background-color: #fff;
+    bottom: -5px;
+    width: 100%;
+    height: 10px;
+    left: 0px;
+    z-index: 2;
+	display:block;
+}
+.schemes .schemes-tabs ul li.active {
+	-webkit-box-shadow: 0px 0px 5px 5px #ccc;
+  -moz-box-shadow:    0px 0px 5px 5px #ccc;
+  box-shadow:         0px 0px 5px 5px #ccc;
+}
+
+
+.orange-button[name="callback-button"] {
+	padding: 10px 20px 10px 20px;
+}
+
+
+.schemes .schemes-tabs ul li:after {}
+.schemes .schemes-tabs .nav-tabs {
+	border:none;
+}
+.schemes .schemes-tabs .tab-content {
+	-webkit-box-shadow: 0px 0px 5px 5px #ccc;
+  -moz-box-shadow:    0px 0px 5px 5px #ccc;
+  box-shadow:         0px 0px 5px 5px #ccc;
+	position:relative;
+	z-index:1;
+}
+.advantages .adv-full > div {
+	background-image:url('../img/adv-bg-full.png');
+	background-size:cover;
+	background-position:center center;
+	margin-bottom:10px;
+	padding:10px;
+}
+.advantages .adv-mini > div {
+	background-image:url('../img/adv-bg-mini.png');
+	background-size:cover;
+	background-position:center center;
+	min-height: 280px;
+	padding:10px;
+	position:relative;
+	margin-bottom: 10px;
+}
+.advantages h2 {
+	margin-bottom:40px;
+}
+.advantages .adv-mini > div > div {
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	left:0px;
+	padding: 5px;
+}
+.advantages {
+	text-align:center;
+}
+.advantages .adv-mini {
+	
+}
+.advantages .row .row > div {
+	padding-left:5px;
+	padding-right:5px;
+}
+
+#prices .calculator > div > div > span {
+	font-size:30px;
+}
+#prices .calculator h4 {
+	text-transform:uppercase;
+	font-size:24px;
+	color:#878787;
+}
+#prices .calculator .note {
+	font-size:14px;
+	color:#878787;
+}
+#prices .calculator > div {
+	margin-bottom:50px;
+}
+#prices h3 {
+	margin-bottom:50px;
+}
+#prices .calc-results p {
+	font-size:30px;
+}
+#prices .calc-results p span {
+	font-size:50px;
+}
+#prices .calc-results .row > div, #prices .calc-results .row > div span {
+	font-size:24px;
+}
+#prices .calc-results .row > div span {
+	white-space:nowrap;
+}
+#prices .calc-results .row {
+	border-bottom:1px solid #878787;
+}
+#prices .calc-results .row > div:first-child {
+	border-right:1px solid #878787;
+	padding-bottom:5px;
+}
+#prices .tarifs {
+	background-color:#f8f8f8;
+	padding:50px 30px 40px 30px;
+}
+#prices .tarifs .row > div, #prices .tarifs .row > div p {
+	font-size:24px;
+}
+#prices .tarifs .row > div h4 {
+	color:#878787;
+}
+#prices .tarifs .row > div:first-child {
+	border-right:1px solid #878787;
+}
+#prices .tarifs .row > .plus-row {
+	font-size:70px;
+	color:#4a4a4a;
+	line-height: 70px;
+}
+#prices .tarifs .row .storage-img {
+	margin-bottom:20px;
+}
+#prices .tarifs .storage h4 + .text-center {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#prices .order-link {
+	padding-left:50px;
+	padding-right:50px;
+}
+.payments {
+	background-image:url('../img/payments-bg1.png');
+	background-position:0% 0%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin-top: 30px;
+}
+
+.payments .payments-lines p {
+	font-size:24px;
+	line-height: 28px;
+	padding-left:60px;
+}
+.payments .payments-lines > div {
+	background-image:url('../img/checkbox-orange.png');
+	background-position:left center;
+	background-repeat:no-repeat;
+	padding-top:17px;
+	padding-bottom:17px;
+}
+.integration {
+	padding-top:70px;
+	padding-bottom:70px;
+}
+.integration h3, .integration p {
+	text-align:center;
+}
+.integration h3 {
+	margin-top:40px;
+	margin-bottom:30px;
+}
+.integration .images-row > div {
+	margin-bottom:20px;
+}
+.integration p {
+	font-size:30px;
+}
+.integration p.note {
+	color:#878787;
+	font-size:14px;
+}
+.integration .row > div a img {
+	max-width:100%;
+}
+.connect-payments .pconnect-tabs > .row {
+	margin-left:0px;
+	margin-right:0px;
+	position:relative;
+	background-image:url('../img/three-white-tabs2.png');
+}
+.connect-payments .pconnect-tabs > .row .shadow-box {}
+.connect-payments .pconnect-tabs > .row > div {
+	text-align:center;
+	  padding-top: 7px;
+    padding-bottom: 32px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center -2px;
+		position:relative;
+}
+.connect-payments .pconnect-tabs > .row > div.middle-link {
+	background-position: 0px -2px;
+}
+.connect-payments .pconnect-tabs > .row > div:last-child {
+	background-position: 25px -2px;
+}
+.connect-payments h2 {
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.connect-payments .step-img {text-align:center;}
+.connect-payments .tab-pane {
+	padding-top:70px;
+	padding-bottom:50px;
+}
+.yellow-tab-bg {
+	display:none;
+	position:absolute;
+	left:0px;
+	top:-1px;
+	z-index: 0;
+	/*max-width:100%;*/
+}
+.connect-payments .links .active a {
+	position:relative;
+	z-index:1;
+	/*background-image:url('../img/yellow-tab.png');*/
+}
+.connect-payments .links .active .yellow-tab-bg {
+	display:block;
+}
+.connect-payments .pconnect-tabs > .row > div.middle-link .yellow-tab-bg {
+	left:-13px;
+}
+.connect-payments .pconnect-tabs > .row > div.right-link .yellow-tab-bg {
+	left:-20px;
+}
+.connect-payments .tab-pane p {
+	font-size:24px;
+	margin-bottom:30px;
+	margin-top:30px;
+}
+.connect-payments .tab-pane ul {
+	list-style-type:none;
+}
+.connect-payments .tab-pane li {
+	font-size:24px;
+}
+.connect-payments .pconnect-tabs > .row > div a {
+	font-size:24px;
+	color:#000;
+}
+.connect-payments .flex {
+	display:flex;
+	align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+	margin-bottom:20px;
+}
+.connect-payments .pconnect-screen {
+	max-width:100%;
+}
+.pconnect-tabs {
+	-webkit-box-shadow: 0px 0px 5px 5px #ccc;
+  -moz-box-shadow:    0px 0px 5px 5px #ccc;
+  box-shadow:         0px 0px 5px 5px #ccc;
+}
+.pconnect-tabs .tab-content {
+	padding-left:10px;
+	padding-right:10px;
+}
+.data-center .row > div img {
+	max-width:100%;
+}
+.payments .container > .row > div {
+	background-image:url('../img/payments-bg.png');
+	background-position:left bottom;
+	background-repeat:no-repeat;
+	background-size:50%;
+	padding-bottom:30px;
+}
+.request-call label {
+	font-size:24px;
+	margin-top: 9px;
+}
+.request-call input[type="text"] {
+	font-size:24px;
+	max-width:100%;
+}
+.request-call input[type="button"], .request-call button {
+	padding: 10px 30px 11px 30px;
+}
+.request-call form .row > div {
+	padding-left:10px;
+	padding-right:10px;
+}
+.data-center .row .row > div {
+	text-align:center;
+	height: 150px;
+  position: relative;
+}
+.data-center .row .row1 > div {
+	height:120px;
+}
+.data-center .row .row > div p {
+	position:absolute;
+	width:100%;
+	text-align:center;
+	    bottom: -10px;
+    left: 0px;
+    font-size: 20px;
+}
+.data-center .row .row {
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.data-center {
+	background-image:url('../img/data-center-bg.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.data-center h2 {
+	text-transform:capitalize;
+	margin-bottom:30px;
+}
+.data-center h4, .data-center p {
+	text-align:center;
+}
+.data-center p {
+	font-size:24px;
+}
+.data-center h4 {
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:30px;
+}
+.data-center h4 + p {
+	margin-bottom:40px;
+}
+.faq-block {
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.faq-block h2 {
+	margin-bottom:40px;
+}
+.faq-block h4 {
+	background-image:url('../img/question-symbol-orange.png');
+	background-position:0px 0px;
+	background-repeat:no-repeat;
+	padding-left:68px;
+	min-height: 48px;
+  background-size: 48px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.faq-block p {
+	    font-size: 20px;
+	color:#707070;
+	padding-top:25px;
+	padding-bottom:30px;
+}
+.faq-block .answers p {
+	padding:5px 0px 0px 0px;
+}
+.register {
+	padding-top:30px;
+	padding-bottom:100px;
+}
+.register form .row div input[type="text"] {
+	width:100%;
+}
+.register form .row div {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.register h2 {
+	margin-bottom:30px;
+}
+.register-block {
+	background-color: #ecebeb;
+	padding:50px 10px 50px 10px;
+}
+
+.news {
+	background-image:url('../img/news-bg.png');
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.news a {
+	color:#000;
+	font-size:30px;
+}
+.news p {
+	margin-top:30px;
+	font-size:24px;
+	color:#7f7135;
+}
+.news h2 {
+	margin-bottom:30px;
+}
+.news h3 {
+	font-size:36px;
+}
+.news .row {
+	margin-bottom:20px;
+}
+.news .all-news-link {
+	font-size:28px;
+	text-decoration:underline;
+	color:#008aff;
+}
+
+.news .all-news-link:hover {
+	text-decoration: none;
+}
+
+.ask-question {
+	padding-top:120px;
+	padding-bottom:80px;
+}
+.ask-question .row > div > p {
+	font-size:18px;
+	margin-top:30px;
+	margin-bottom:50px;
+}
+.ask-question .row .row > div {
+	font-size:24px;
+	color:#c0c0c0;
+}
+.ask-question .row .row > div a:not(.orange-button) {
+	white-space:nowrap;
+	color:#000;
+}
+
+/*
+	Style for small monitor
+*/
+@media (max-width: 1199px) {
+	.ask-btn {
+		position:relative;
+		top:18px;
+	}
+	.advantages .container h3 {
+		font-size:27px;
+	}
+	.connect-payments .pconnect-tabs > .row > div {
+		padding-bottom:10px;
+	}
+	.connect-payments .links > div {
+		background-color:#ccc;
+	}
+	.connect-payments .links > div a {
+		width:100%;
+		display:inline-block;
+	}
+	.connect-payments .links .active {
+		background-image:none;
+		background-color:#ffe26a;
+	}
+	.connect-payments .links .active .yellow-tab-bg {
+		display:none !important;
+	}
+}
+/*
+	Styles for phones and tables
+*/
+@media (max-width: 991px) {
+	
+	.connect-payments .orange-arrow {
+		display:none;
+	}
+	.slogan > div {
+		text-align:center;
+	}
+	.screen-item1 .row .row > div {
+		padding-left:10px;
+		margin-bottom:15px;
+	}
+	.payments .payments-lines p {
+		padding-left:35px;
+		font-size:20px;
+	}
+	.screen-item1 .container > .row > div {
+		padding-top:35px;
+		padding-bottom:35px;
+	}
+	.cards-bg {
+		background-image:none;
+	}
+	.send-bg {
+		background-image:none;
+	}
+	.cash-box-bg {
+		background-image:none;
+	}
+	.payments .payments-lines > div {
+		background-size:35px;
+	}
+	.slogan-row1 {
+		font-size:30px;
+	}
+	.slogan-row2 {
+		font-size:32px;
+	}
+	.slogan-row3 {
+		font-size:28px;
+	}
+	.payments .container > .row > div {
+		background:none;
+	}
+	.advantages .container h3 {
+		font-size:27px;
+		margin-top:100px;
+	}
+	.advantages .adv-full img {
+		/*display:none;*/
+	}
+	.advantages .adv-full h3 {
+		margin-top:0px;
+	}
+	.advantages .adv-mini > div > img {
+		display:none;
+	}
+	.advantages .adv2 > div {
+		background:url('../img/adv2-symbol.png') center top no-repeat, url('../img/adv-bg-mini.png');
+		background-size:auto, cover;
+	}
+	.advantages .adv3 > div {
+		background:url('../img/adv3-symbol.png') center top no-repeat, url('../img/adv-bg-mini.png');
+		background-size:auto, cover;
+	}
+	.advantages .adv4 > div {
+		background:url('../img/adv4-symbol.png') center top no-repeat, url('../img/adv-bg-mini.png');
+		background-size:auto, cover;
+	}
+	.advantages .adv5 > div {
+		background:url('../img/adv5-symbol.png') center top no-repeat, url('../img/adv-bg-mini.png');
+		background-size:auto, cover;
+	}
+	.advantages .adv6 > div {
+		background:url('../img/adv6-symbol.png') center top no-repeat, url('../img/adv-bg-mini.png');
+		background-size:auto, cover;
+	}
+	.advantages .adv7 > div {
+		background:url('../img/adv7-symbol.png') center top no-repeat, url('../img/adv-bg-mini.png');
+		background-size:auto, cover;
+	}
+	.advantages .adv-mini > div {
+		max-height:none;
+	}
+	.advantages .adv-mini > div > div {
+		position:static;
+	}
+	.request-call form .row > div {
+		text-align:center;
+	}
+	.request-call form > .row > div {
+		padding-top:7px;
+		padding-bottom:7px;
+	}
+	.request-call .button-col {
+		padding-top:15px;
+	}
+	.screen-item1 .container {
+		background:none;
+	}
+	.integration .row > div a img {
+		width:100%;
+	}
+	.ask-question {
+		padding-top:50px;
+		padding-bottom:60px;
+	}
+	.ask-question .row > div {
+		text-align:center;
+	}
+	
+	.data-center .row .row > div {
+		height: 190px;
+	}
+	.data-center .row .row1 > div {
+		height:160px;
+	}
+	
+}
+
+/*
+	Styles for phones
+*/
+@media(max-width:767px) {
+	.container h2 {
+		font-size:40px;
+	}
+	.faq-block h4 {
+		background-image:none;
+		padding-left:0px;
+	}
+}
+@media (max-width: 640px) {
+
+}
