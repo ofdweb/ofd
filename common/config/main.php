@@ -14,12 +14,12 @@ return [
             'translations' => [
                 'app*' => [
                     'class' => 'yii\i18n\PhpMessageSource',
-                    //'basePath' => '@app/messages',
+                    'basePath' => '@common/messages',
                     //'sourceLanguage' => 'en-US',
-                    /*'fileMap' => [
+                    'fileMap' => [
                         'app'       => 'app.php',
                         'app/error' => 'error.php',
-                    ],*/
+                    ],
                 ],
             ],
         ],
